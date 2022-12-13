@@ -180,7 +180,7 @@ body {
 /* End header */
 /* Start landing */
 .landing {
-    background-image: url("/Image/landing.jpg");
+    background-image: url("/Images/landing.jpg");
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
@@ -267,13 +267,13 @@ body {
 }
 
 @media(max-width:767px) {
-    .service-content {
+    .service-content .srv {
         text-align: center;
         flex-direction: column;
     }
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1192px) {
     .img-col {
         display: none;
     }
@@ -477,7 +477,7 @@ body {
     text-decoration: none;
     color: var(--main-color);
     display: block;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 800;
 }
 
